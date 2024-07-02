@@ -1,0 +1,58 @@
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Initialize the Server
+### `cd server`
+Express: Express is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
+
+Axios: Axios is a popular HTTP client library used to make HTTP requests from Node.js applications.
+
+Cors: CORS (Cross-Origin Resource Sharing) is a Node.js package that provides middleware to enable CORS with various options.
+### `npm install express axios cors`
+
+
+### Initialize the client
+
+### `cd client`
+
+### `npm start`Run the client
+
+### `npm install axios`
+you can use Axios to make HTTP requests, such as GET, POST, PUT, DELETE, etc., to external APIs or services. Here's a basic example of making a GET request using Axios.
+ 
+### `cd ..` go to project to main path search-app
+
+To run both the React client and Node.js server concurrently, you can use the concurrently package.
+### `npm install concurrently --save-dev` Concurrently Run Both Servers
+
+
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+
