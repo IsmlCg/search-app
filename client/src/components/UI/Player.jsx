@@ -269,7 +269,13 @@ export default function Player({ data, track }) {
             onClose={handleCloseModal}
             titleModal={titleModal}
           >
-            <VideoPlayer videos={videos} />
+            {videos.length > 0 ? (
+              <VideoPlayer videos={videos} />
+            ) : (
+              <p class="text-slate-900 dark:text-slate-50 text-md line-clamp-1">
+                Videos not found..!
+              </p>
+            )}
           </ModalDialog>
         )}
       </div>
