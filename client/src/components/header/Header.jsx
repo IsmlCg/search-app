@@ -6,6 +6,8 @@ import photo from "./../../assets/images/photo.png";
  * <Header>
  *   <p>Your content here</p>
  * </Header>
+ * @param {Array} props.children - The initial data to be filtered.
+ * @returns {JSX.Element} The Header component.
  */
 export default function Header({ children }) {
   return (

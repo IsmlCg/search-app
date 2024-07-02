@@ -5,6 +5,8 @@ import Player from "../UI/Player";
  * <SuggestionList>
  *   <p>Your content here</p>
  * </SuggestionList>
+ * @param {Array} data - The initial data to be filtered.
+ *
  */
 export default function SuggestionList({ data }) {
   return (
