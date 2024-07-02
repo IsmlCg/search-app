@@ -1,8 +1,8 @@
 import "./../assets/styles/App.css";
-import SearchBox from "./../components/SearchBox/SearchBox";
-import Header from "./../components/header/Header";
-import data from "./../assets/json/data.json";
-import SuggestionList from "./../components/SuggestionList/SuggestionList";
+import SearchBox from "../components/SearchBox/SearchBox";
+import Header from "../components/header/Header";
+import data from "../assets/json/data.json";
+import SuggestionList from "../components/SuggestionList/SuggestionList";
 import { useState } from "react";
 
 /**
